@@ -1,0 +1,37 @@
+{
+  "Actions": [
+    {
+      "Icon": "action/images/actionimage",
+      "Name": "my Action",
+      "States": [
+        {
+          "Image": "action/images/action"
+        }
+      ],
+      "Tooltip": "練習用「Tooltip」テキスト",
+      "UUID": "com.nbr41to.practice.action"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "nbr41to",
+  "CodePath": "index.html",
+  "PropertyInspectorPath": "propertyinspector/index.html",
+  "Description": "my description",
+  "Name": "my Stream Deck Template",
+  "Icon": "action/images/action",
+  "URL": "https://www.elgato.com/en/gaming/stream-deck",
+  "Version": "0.0.1",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "4.1"
+  }
+}

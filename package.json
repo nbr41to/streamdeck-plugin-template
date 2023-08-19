@@ -1,0 +1,13 @@
+{
+  "name": "streamdeck-plugin-creator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/elgatosf/streamdeck-plugin-template.git",
+  "author": "Knob <59198478+nbr41to@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build-template": "./DistributionTool -b -i ./Sources/com.elgato.template.sdPlugin -o Release",
+    "build-practice": "rm ./Release/com.nbr41to.practice.streamDeckPlugin && ./DistributionTool -b -i ./Sources/com.nbr41to.practice.sdPlugin -o Release",
+    "build-current-subscriber": "rm ./Release/com.nbr41to.current-subscriber.streamDeckPlugin && ./DistributionTool -b -i ./Sources/com.nbr41to.current-subscriber.sdPlugin -o Release"
+  }
+}

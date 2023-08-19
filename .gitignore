@@ -1,9 +1,1 @@
-.DS_Store
-.idea/**
-/src/DistributionTool
-com.nbr41to.get-youtube-status.streamDeckPlugin
-.vscode/**
-package.json
-.history
-__exclude
-.editorconfig
+node_modules/

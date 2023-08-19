@@ -1,0 +1,37 @@
+{
+  "Actions": [
+    {
+      "Icon": "action/images/icon",
+      "Name": "Current Subscriber",
+      "States": [
+        {
+          "Image": "action/images/icon"
+        }
+      ],
+      "Tooltip": "View current subscriber count on YouTube.",
+      "UUID": "com.nbr41to.current-subscriber.action"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "nbr41to",
+  "CodePath": "index.html",
+  "PropertyInspectorPath": "propertyinspector/index.html",
+  "Description": "View current subscriber count on YouTube.",
+  "Name": "Current Subscriber",
+  "Icon": "action/images/icon",
+  "URL": "",
+  "Version": "0.0.1",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "4.1"
+  }
+}
