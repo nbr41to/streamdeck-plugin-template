@@ -8,17 +8,27 @@ https://docs.elgato.com/sdk/plugins/getting-started
 
 ## やったこと
 
-`https://github.com/elgatosf/streamdeck-plugin-template`をコピーする
+### テンプレートの clone
 
-clone だとダメだったから zip をダウンロードしたらいけた（たぶん何かの間違いでどっちでも問題ないはず）
+```sh
+git clone https://github.com/elgatosf/streamdeck-plugintemplate
+```
 
-SymLink の追加
+公式には`https://github.com/elgatosf/streamdeck-plugin-template`をコピーするとあるが,`https://github.com/elgatosf/streamdeck-plugintemplate`こちらが良さそう
+
+### Packaging
+
+```sh
+./DistributionTool -b -i ./Sources/com.elgato.template.sdPlugin -o Release
+```
+
+### SymLink の追加
 
 ```sh
 ln -s com.nbr41to.practice.sdPlugin ~/Library/Application\ Support/com.elgato.StreamDeck/Plugins/
 ```
 
-削除
+削除したい場合
 
 ```sh
 unlink ~/Library/Application\ Support/com.elgato.StreamDeck/Plugins/com.nbr41to.practice.sdPlugin
